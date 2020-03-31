@@ -29,6 +29,7 @@ const SecondPage = () => (
       <p>
         <button type="submit">Send</button>
       </p>
+      <input type="hidden" name="form-name" value="contact" />
     </form>
     <Link to="/">Go back to the homepage</Link>
     
